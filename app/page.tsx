@@ -137,8 +137,8 @@ export default function DowryCalculator() {
             key={i}
             className="absolute text-yellow-400 opacity-20"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: typeof window !== "undefined" ? Math.random() * window.innerWidth : Math.random() * 1200,
+              y: typeof window !== "undefined" ? Math.random() * window.innerHeight : Math.random() * 800,
               rotate: 0,
             }}
             animate={{
@@ -434,7 +434,7 @@ export default function DowryCalculator() {
               variant="ghost"
               size="sm"
               className="text-white hover:text-gray-300"
-              onClick={() => window.open("https://github.com/0xVENOM-DDOS", "_blank")}
+              onClick={() => window.open("https://github.com", "_blank")}
             >
               <Github className="w-4 h-4 mr-2" />
               GitHub
@@ -494,13 +494,13 @@ export default function DowryCalculator() {
               <p>Have feedback, suggestions, or want to contribute to this social awareness project?</p>
               <div className="space-y-2">
                 <p>
-                  <strong>Email:</strong> adarshsingh7089@gmail.com
+                  <strong>Email:</strong> contact@dowrycalculator.com
                 </p>
                 <p>
-                  <strong>Twitter:</strong> @0xVENOM_DDOS
+                  <strong>Twitter:</strong> @DowryCalculator
                 </p>
                 <p>
-                  <strong>LinkedIn:</strong> https://www.linkedin.com/in/adarshsingh861/
+                  <strong>LinkedIn:</strong> /company/dowry-calculator
                 </p>
               </div>
               <p className="text-sm text-gray-600">
