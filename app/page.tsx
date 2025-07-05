@@ -434,7 +434,7 @@ export default function DowryCalculator() {
               variant="ghost"
               size="sm"
               className="text-white hover:text-gray-300"
-              onClick={() => window.open("https://github.com", "_blank")}
+              onClick={() => window.open("https://github.com/0xVENOM-DDOS", "_blank")}
             >
               <Github className="w-4 h-4 mr-2" />
               GitHub
@@ -494,13 +494,13 @@ export default function DowryCalculator() {
               <p>Have feedback, suggestions, or want to contribute to this social awareness project?</p>
               <div className="space-y-2">
                 <p>
-                  <strong>Email:</strong> contact@dowrycalculator.com
+                  <strong>Email:</strong> adarshsingh7089@gmail.com
                 </p>
                 <p>
-                  <strong>Twitter:</strong> @DowryCalculator
+                  <strong>Twitter:</strong> @0xVENOM_DDOS
                 </p>
                 <p>
-                  <strong>LinkedIn:</strong> /company/dowry-calculator
+                  <strong>LinkedIn:</strong> https://www.linkedin.com/in/adarshsingh861/
                 </p>
               </div>
               <p className="text-sm text-gray-600">
