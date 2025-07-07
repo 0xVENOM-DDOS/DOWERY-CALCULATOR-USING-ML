@@ -13,3 +13,4 @@
 
 > ⚠️ Disclaimer: This app is a satire project built for educational/demo purposes. Dowry is illegal and socially harmful. Say NO to dowry.
 
+![Screenshot 2025-07-05 012040](https://github.com/user-attachments/assets/2c410017-a67b-4807-8a8f-3ea002477e57)
